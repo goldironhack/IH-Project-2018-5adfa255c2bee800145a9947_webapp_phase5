@@ -1,9 +1,49 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+#googleMapContainer{
+    width: 100%;
+    height: 500px;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+.jumbotron {
+    background-color: blueviolet !important;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tableWrapper {
+    position:relative;
+    width:100%;
+    height: 500px;
+}
+
+#tableScroll {
+    height:500px;
+    overflow:auto;
+    margin-top:20px;
+}
+
+#info-box {
+    background-color: white;
+    border: 1px solid black;
+    bottom: 5%;
+    height: 5%;
+    padding: 0.2%;
+    position: absolute;
+    left: 2%;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
 }
